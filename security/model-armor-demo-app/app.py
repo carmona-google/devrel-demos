@@ -199,11 +199,14 @@ generation_config = types.GenerateContentConfig(
 )
 
 foundation_models = [
-    {"name": "gemini-2.0-flash-001", "provider": "Google", "location": "global", "display_name": "gemini-2.0-flash-001"},
+    {"name": "gemini-4-argon", "provider": "Google", "location": "global", "display_name": "gemini-4-argon"},
+    {"name": "gemini-4-neon", "provider": "Google", "location": "global", "display_name": "gemini-4-neon"},
+    {"name": "gemini-4-carbon", "provider": "Google", "location": "global", "display_name": "gemini-4-carbon"},
+    {"name": "gemini-3.8-flash", "provider": "Google", "location": "global", "display_name": "gemini-3.8-flash"},
+    {"name": "gemini-3.5-flash-lite", "provider": "Google", "location": "global", "display_name": "gemini-3.5-flash-lite"},
     {"name": "gemini-2.5-flash", "provider": "Google", "location": "global", "display_name": "gemini-2.5-flash"},
     {"name": "gemini-2.5-pro", "provider": "Google", "location": "global", "display_name": "gemini-2.5-pro"},
-    {"name": "gemini-2.5-flash-lite-preview-06-17", "provider": "Google", "location": "global", "display_name": "gemini-2.5-flash-lite-preview-06-17"},
-    {"name": "claude-sonnet-4", "provider": "Anthropic", "location": "us-east5", "display_name": "claude-sonnet-4"},
+    {"name": "claude-sonnet-5-5", "provider": "Anthropic", "location": "global", "display_name": "claude-sonnet-5-5"},
 ]
 
 # --- Pre-initialize all clients on startup ---
